@@ -14,15 +14,15 @@
                 </div>
             </div>
             <div class="table-responsive">
-                <table class="table table-bordered border-primary">
-                    <thead>
+                <table class="table">
+                    <thead class="text-bg-dark">
                         <tr>
                             <th style="padding-left:25px;">Nombre</th>
                             <th>Compra</th>
                             <th>Venta</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="  table-success">
                         @foreach ($coins as $coin)
                             <tr>
                                 <td>
