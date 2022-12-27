@@ -8,7 +8,7 @@
                     <h4>Todas las divisas</h4>
                 </div>
                 <div class="d-grid gap-2 col-md-2">
-                    <a href="\" class="btn btn-primary">
+                    <a href="\" class="btn btn-dark">
                         Inicio
                     </a>
                 </div>
