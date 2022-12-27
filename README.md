@@ -11,7 +11,7 @@ Mbstring PHP Extension
 
 ## Installation Instructions
 In your terminal run the command: \
-composer install \
+composer install 
 
 Then start the server with the command: \
 php -S localhost:8000 -t public 
