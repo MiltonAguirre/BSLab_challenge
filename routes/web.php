@@ -13,15 +13,5 @@
 |
 */
 
-$router->get('/', function () use ($router) {
-    $coins=[];
-    $response = json_decode(file_get_contents(
-        'https://www.dolarsi.com/api/api.php?type=valoresprincipales'), true);
-    foreach ($response as $key => $value) {
-        if($value["casa"]["nombre"] == "Dolar Oficial" || $value["casa"]["nombre"] == "Dolar Blue"){
-            $coins[] = $value["casa"];
-        }
-    }
-    
-    return view('index', compact("coins"));
-});
+$router->get('/',['uses' => 'CoinsController@index']);
+$router->get('coins',['uses' => 'CoinsController@getAll']);
