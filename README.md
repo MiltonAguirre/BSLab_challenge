@@ -1,21 +1,20 @@
 # Currency Monitor Application
 
-Web application to monitor the value of the different exchange rates of American currencies in Argentina \
+Web application to monitor the value of the different exchange rates of American currencies in Argentina
 
 
 ## Requirements
 PHP >= 8.0 \
 OpenSSL PHP Extension \
 PDO PHP Extension \
-Mbstring PHP Extension \
-
+Mbstring PHP Extension 
 
 ## Installation Instructions
 In your terminal run the command: \
 composer install \
-\
+
 Then start the server with the command: \
-php -S localhost:8000 -t public \
+php -S localhost:8000 -t public 
 
 
 For more information go to the documentation: https://docs.google.com/document/d/16c005NfSmX9AjSnODZzX9eow27Zvl-rJwR0JvZdcTVo/
