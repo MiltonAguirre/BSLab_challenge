@@ -8,21 +8,21 @@
                     <h4>Todas las divisas</h4>
                 </div>
                 <div class="d-grid gap-2 col-md-2">
-                    <a href="\" class="btn btn-primary">
+                    <a href="\" class="btn btn-dark">
                         Inicio
                     </a>
                 </div>
             </div>
             <div class="table-responsive">
-                <table class="table table-bordered border-primary">
-                    <thead>
+                <table class="table">
+                    <thead class="text-bg-dark">
                         <tr>
                             <th style="padding-left:25px;">Nombre</th>
                             <th>Compra</th>
                             <th>Venta</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="  table-success">
                         @foreach ($coins as $coin)
                             <tr>
                                 <td>
