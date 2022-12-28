@@ -15,7 +15,7 @@ class CoinsController extends Controller
                     $coins[] = $value["casa"];
                 }
             }
-            return view('index', compact("coins"))->with('alert-success', 'Contenido actualizado!');
+            return view('index', compact("coins"));
         } catch (\Exception $e) {
             \Log::error($e->getMessage());
             abort(400, "Ups, algo salió mal! recargue la pagina y vuelva a intentar");
@@ -30,7 +30,7 @@ class CoinsController extends Controller
                 foreach ($response as $value) {
                     $coins[] = $value["casa"];
                 }
-            return view('coins.index', compact("coins"))->with('alert-success', 'Contenido actualizado!');
+            return view('coins.index', compact("coins"));
         } catch (\Exception $e) {
             \Log::error($e->getMessage());
             abort(400, "Ups, algo salió mal! recargue la pagina y vuelva a intentar");
