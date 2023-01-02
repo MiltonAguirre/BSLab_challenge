@@ -16,8 +16,13 @@ composer install
 Then start the server with the command: \
 php -S localhost:8000 -t public 
 
+## Test Endpoints Instructions
+In your terminal run the command: \
+./vendor/bin/phpunit
+
 
 For more information go to the documentation: https://docs.google.com/document/d/16c005NfSmX9AjSnODZzX9eow27Zvl-rJwR0JvZdcTVo/
+
 
 ...
 
